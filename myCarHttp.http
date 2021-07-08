@@ -1,0 +1,12 @@
+#POST localhost:8080/api/car
+#Content-Type: application/json
+#
+#{
+#  "name": "vw",
+#  "series": "golf 8",
+#  "age": 2021
+#}
+
+GET localhost:8080/api/car/all
+
+#GET localhost:8080/api/car/3
