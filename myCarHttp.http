@@ -7,6 +7,25 @@
 #  "age": 2021
 #}
 
-GET localhost:8080/api/car/all
+#POST localhost:8080/api/shop
+#Content-Type: application/json
+#
+#{
+#  "name": "tesla",
+#  "address": "boston 9700",
+#  "phone": "67983457"
+#}
+
+#GET localhost:8080/api/shop/all
 
 #GET localhost:8080/api/car/3
+
+#PUT localhost:8080/api/shop
+#Content-Type: application/json
+#
+#{
+#  "id": 1,
+#  "name": "tesla2",
+#  "address": "san-francisco 9900",
+#  "phone": "67983497"
+#}

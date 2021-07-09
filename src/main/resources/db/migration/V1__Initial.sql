@@ -4,3 +4,4 @@ CREATE TABLE car(
     series TEXT NOT NULL,
     age INT NOT NULL
 );
+
