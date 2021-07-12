@@ -17,7 +17,7 @@ class CarController(private val repository: CarRepository) {
     @PostMapping()
     suspend fun createCar(@RequestBody car: RequestCar.CreateCar) {
 
-        val createNewCar = Car(0, car.name, car.series, car.age)
+        val createNewCar = Car(0, car.name, car.series, car.age,0)
         repository.save(createNewCar)
     }
 

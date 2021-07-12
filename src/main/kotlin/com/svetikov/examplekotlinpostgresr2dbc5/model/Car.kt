@@ -8,5 +8,6 @@ data class Car(
     @Id val id: Int,
     val name: String,
     val series:String,
-    val age:Int
+    val age:Int,
+    val id_shop_car:Int
 )

@@ -17,7 +17,7 @@
 #}
 
 GET localhost:8080/api/shop/all
-Authorization: {{user}} {{adf69b4f-8794-40c1-9365-0c83b2b49d38}}
+
 
 #GET localhost:8080/api/car/9
 
